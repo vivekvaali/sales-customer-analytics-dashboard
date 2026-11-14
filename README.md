@@ -4,13 +4,13 @@
 
 This project analyzes retail sales and customer data to understand business performance, identify sales trends, and gain insights into customer purchasing behavior.
 
-Using Python, Pandas, SQL and data visualization, the project transforms raw sales data into meaningful business insights that can support better decision-making.
+Using Python, Pandas, SQL, and data visualization, the project transforms raw sales data into meaningful business insights that support better decision-making.
 
 ## Business Problem
 
 Retail businesses generate large amounts of sales data. However, understanding which products perform well, which customers contribute the most revenue, and which regions generate higher sales can be challenging.
 
-This project explores the data to identify important performance indicators, sales patterns and customer trends.
+This project explores retail sales data to identify important performance indicators, sales patterns, and customer trends.
 
 ## Project Objectives
 
@@ -19,13 +19,13 @@ This project explores the data to identify important performance indicators, sal
 - Understand customer purchasing behavior.
 - Evaluate regional sales performance.
 - Analyze monthly and yearly sales trends.
-- Present business insights through a dashboard design.
+- Present business insights through a dashboard visualization.
 
 ## Dashboard Preview
 
 ![Sales & Customer Analytics Dashboard](reports/sales_customer_analytics_dashboard.png)
 
-*Dashboard visualization created using the project's cleaned dataset. It presents the key metrics and analyses in a Power BI-inspired layout.*
+*Static dashboard visualization created using the project's cleaned dataset. It presents key metrics and analyses in a Power BI-inspired layout.*
 
 ## Key Performance Indicators
 
@@ -41,13 +41,16 @@ This project explores the data to identify important performance indicators, sal
 ## Analysis Performed
 
 ### 1. Data Cleaning and Preprocessing
+
 - Inspected dataset structure and data quality.
 - Checked for missing values and duplicate records.
 - Converted order and shipping dates into datetime format.
 - Handled missing Product Base Margin values using median imputation.
 
 ### 2. Feature Engineering
+
 Created additional business-related columns:
+
 - Order Year
 - Order Month
 - Order Month Name
@@ -57,19 +60,23 @@ Created additional business-related columns:
 - Order Value
 
 ### 3. Sales and Profit Analysis
+
 - Analyzed sales and profit by product category.
 - Compared regional sales performance.
 - Evaluated customer segment performance.
 - Identified monthly and yearly sales trends.
 
 ### 4. Product and Customer Ranking
+
 - Ranked products based on sales and profit.
 - Identified top-performing products.
 - Identified customers contributing the highest sales.
 - Examined products and customers with negative profit.
 
 ### 5. SQL Analysis
+
 Loaded the cleaned dataset into an SQLite database and performed SQL queries for:
+
 - Overall business KPIs.
 - Product category performance.
 - Regional sales performance.
@@ -94,8 +101,8 @@ Loaded the cleaned dataset into an SQLite database and performed SQL queries for
 - SQL
 - SQLite
 - Google Colab
-- Power BI-inspired dashboard visualization
 - GitHub
+- Power BI-inspired dashboard visualization
 
 ## Project Structure
 
@@ -103,34 +110,38 @@ Loaded the cleaned dataset into an SQLite database and performed SQL queries for
 sales-customer-analytics-dashboard/
 │
 ├── data/
-│   └── cleaned_sales_data.csv
+│   ├── cleaned_sales_data.csv
+│   └── README.md
 │
 ├── notebooks/
-│   └── Sales_Customer_Analytics.ipynb
+│   ├── Sales_Customer_Analytics.ipynb
+│   └── README.md
 │
 ├── reports/
-│   └── sales_customer_analytics_dashboard.png
+│   ├── sales_customer_analytics_dashboard.png
+│   └── README.md
 │
 ├── sql/
-│   └── sales_analysis.sql
+│   ├── sales_analysis.sql
+│   └── README.md
 │
 ├── README.md
-├── requirements.txt
-└── .gitignore
+└── requirements.txt
 ```
 
 ## Dataset
 
 The project uses the Sample Superstore retail sales dataset.
 
-The cleaned dataset contains **8,399 records and 28 columns**, including sales, profit, order dates, customer details, product categories and regional information.
+The cleaned dataset contains **8,399 records and 28 columns**, including sales, profit, order dates, customer details, product categories, and regional information.
 
 ## Conclusion
 
-This project demonstrates how Python and SQL can be used to clean, analyze and transform retail sales data into useful business insights.
+This project demonstrates how Python and SQL can be used to clean, analyze, and transform retail sales data into useful business insights.
 
-It helped develop practical skills in data preprocessing, feature engineering, KPI calculation, SQL analysis, data visualization and business analytics.
+It helped develop practical skills in data preprocessing, feature engineering, KPI calculation, SQL analysis, data visualization, and business analytics.
 
 ---
+
 **Project:** Sales & Customer Analytics Dashboard  
 **Focus:** Data Analytics | Python | SQL | Business Intelligence
